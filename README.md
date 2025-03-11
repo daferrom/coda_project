@@ -56,3 +56,4 @@ npm run test:e2e -- --debug
 ```sh
 npm run lint
 ```
+[![Project CI](https://github.com/daferrom/coda_project/actions/workflows/node.js.yml/badge.svg)](https://github.com/daferrom/coda_project/actions/workflows/node.js.yml)
