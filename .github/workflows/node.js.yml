@@ -22,4 +22,10 @@ jobs:
         run: date
       - name: "Show the repo content"
         run: ls -la
-      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.13.1
+          cache: 'npm'
+      - run: npm ci --legacy-peer-deps
+      - run: npm run build
+
